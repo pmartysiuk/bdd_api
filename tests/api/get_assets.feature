@@ -5,7 +5,7 @@ Feature: Test get kraken Assets request
     Then response status code should be 200
       And JSON response body should be like:
         """
-          {git s
+          {
               "error": [],
               "result": {
                   "BCH": {

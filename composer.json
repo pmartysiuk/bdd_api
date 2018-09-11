@@ -1,0 +1,16 @@
+{
+    "name": "pmartysiuk/codeceptrion_api_tests",
+    "description": "Codeception api tests context on behat",
+    "type": "liblary",
+    "require": {
+        "codeception/codeception": "^2.4"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pavel Martysiuk",
+            "email": "pmartysiuk@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}

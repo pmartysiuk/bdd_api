@@ -1,0 +1,14 @@
+class_name: ApiTester
+modules:
+    enabled:
+        - \Helper\Api
+        - REST:
+              depends: PhpBrowser
+              part: Json
+
+env:
+    kraken:
+        modules:
+            config:
+                REST:
+                    url: 'https://api.kraken.com/0/'
